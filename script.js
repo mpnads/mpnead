@@ -28,18 +28,7 @@
                 });
             });
          </script>
-         <!-- Date & Time Script -->
-        <script>
-            function updateDateTime() {
-                const now = new Date();
-                const date = now.toLocaleDateString();
-                const time = now.toLocaleTimeString();
-                document.getElementById('date-time').textContent = `${date} ${time}`;
-            }
-            setInterval(updateDateTime, 1000);
-            updateDateTime(); // initial call
-        </script>
-        <!-- Date & Time Script End -->
+        
          <script>
             function loadContent(url) {
                 const contentDiv = document.getElementById('dynamic-content');
